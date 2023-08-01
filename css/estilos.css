@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+  background: rgba(0,0,0,0.7); /*Color de fondo*/
+  width: 100%; /*Ancho*/
+  position: fixed; /*Posicion (se quedara quieto aun bajando la pagina)*/
+  z-index: 100; /*Orden en el que se amontonan los elementos*/ 
+}
+
+nav {
+  float: right;   /*alineado a la derecha de la página.*/
+}
+
+nav ul {
+  list-style: none; /*especifica la forma de la viñeta */
+  overflow: hidden; /*hace que todo contenido fuera del bloque del menú se corte y se invisibilice.*/
+}
+
+nav ul li {
+  float: left;  /*establece que los submenús o páginas se muestren horizontalmente*/ 
+  font-family: Arial, sans-serif; /*tipo de fuente que tendra los menús*/
+  font-size: 16px; /*define el tamaño de letra de cada elemento*/
+}
+nav ul li a {
+  /*convierte en un bloques */
+  padding: 40px; /*mejorará visualmente el menú y reducira errores de dimensión.*/
+  color: #fff; /*especificamos el color de los enlaces*/
+  text-decoration: none; /* Ninguna decoracion*/ 
+  text-align: center;
+}
+nav ul li:hover {
+  background: #63F; /*Color que se mostrata al pasar sobre un elemento*/
+}
+
+
+
+body {
+	
+	
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+}
+
+ .bot1{
+           border: 0px ; /*anchura, estilo y color borde*/
+padding: 0px; /*espacio alrededor texto*/
+background-color: none; /*color botón*/
+border-radius: 50px; /*bordes redondos*/
+        }
+
+h3 {color:#FFF; 
+  aling: left;
+  padding-left:10%;
+   }
+
+h2 {color:#000; 
+ text-align: center;
+			font-family:"Cooper Black";
+   }
+td {
+	padding:10px;
+	}
+
+h4{
+	color:#000; 
+    text-align: center;
+	font-family:"Franklin Gothic Heavy";
+	font-size: 160px;
+	}
+H5	{
+	color:#FFF; 
+    text-align: center;
+	font-family:"Franklin Gothic Heavy";
+	font-size: 160px;
+	}
+
+
+
+section {
+ background-color: ;
+ padding: 20px;
+ 
+}
+footer {
+ background:rgba(0,0,0,0.7);
+ color: #fff;
+ padding: 10px;
+ text-align: center;
+  
+}/* CSS Document */
+
+
+
+.

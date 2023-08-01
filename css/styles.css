@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+body { /*  */
+  margin: 0; /* margen exterior en 0 píxeles */
+  padding: 0;/*  relleno interno en 0 píxeles */
+  font-family: Arial, sans-serif;
+}
+
+.carousel-container {
+  position: relative;
+  overflow: hidden; /* Oculta cualquier contenido que se desborde del contenedor del carrusel */
+  max-width: 400px; /* Ajusta el ancho del carrusel según tus necesidades */
+  margin: 0 auto;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.3s ease-in-out;/*  crea un efecto de desplazamiento suave entre las imágenes*/
+}
+
+.carousel-slide img {
+  width: 100%; /*establece el ancho de las imágenes al 100% del ancho del contenedor del carrusel*/
+  height: auto;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute; /*los posiciona en relación con su contenedor principal*/
+  top: 50%; /* coloca los botones de navegación en el centro vertical del contenedor del carrusel*/
+  transform: translateY(-50%); /*desplazar los botones hacia arriba un 50% de su altura*/
+  background-color:transparent;
+  color: #fff;
+  padding: 8px 16px; /*Agrega un relleno de 8 píxeles en la parte superior e inferior y 16 píxeles en los lados de los botones.
+*/
+  border: none;/*Elimina el borde alrededor del boton*/
+  cursor: pointer; /*Cambia el cursor del mouse a un puntero cuando se pasa sobre los botones*/
+  font-size: 20px;
+}
+
+.prev-btn {
+  left: 10px; /*Posiciona el botón "<" a 10 píxeles desde el borde izquierdo del contenedor del carrusel*/
+}
+
+.next-btn {
+  right: 10px;
+}
